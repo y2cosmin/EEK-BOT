@@ -46,10 +46,10 @@ class MySQL:
         return cursor.fetchall()
 
 ok = pymysql.connect(**{
-    'host': 'mysql.nexcord.com',
-    'user': 'u13819_0m0ZaEIVO2',
-    'passwd': 'zS6I.OuaKAH!f+9GRHd2KNYy',
-    'db': 's13819_eek',
+    'host': 'localhost',
+    'user': 'root',
+    'passwd': 'password',
+    'db': 'test',
     'port': 3306,
     'charset': 'utf8',
     'connect_timeout': 3600,
